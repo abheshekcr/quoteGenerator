@@ -81,7 +81,7 @@ export default class RandomGen extends Component{
     render(){
 
         return(
-            <body style={{backgroundColor:this.state.color}}>
+            <body className="whole-body" style={{backgroundColor:this.state.color}}>
             <div className="container">
                   
         <h3 style={{color:this.state.color}}>{this.state.quote}</h3>
