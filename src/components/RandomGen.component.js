@@ -13,6 +13,7 @@ export default class RandomGen extends Component{
         }
 
         this.randomNumberGen=this.randomNumberGen.bind(this);
+        //some comment
     }
 
    
