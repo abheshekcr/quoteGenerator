@@ -8,9 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Route path="/"component={RandomGen}/>
-      </Router>
+     
+     <RandomGen/>
    
     </div>
   );
