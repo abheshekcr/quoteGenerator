@@ -87,7 +87,7 @@ export default class RandomGen extends Component{
         <h3 style={{color:this.state.color}}>{this.state.quote}</h3>
         <h5 style={{color:this.state.color}}>{this.state.author}</h5>
 
-        <button onClick={this.randomNumberGen}>Generate quote</button>
+        <button className="quote-btn" onClick={this.randomNumberGen}>Generate quote</button>
         
             </div>
             </body>
