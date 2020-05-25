@@ -81,16 +81,14 @@ export default class RandomGen extends Component{
     render(){
 
         return(
-            <body>
+            <body style={{backgroundColor:this.state.color}}>
             <div className="container">
-               
-            
+                  
         <h3 style={{color:this.state.color}}>{this.state.quote}</h3>
         <h5 style={{color:this.state.color}}>{this.state.author}</h5>
 
         <button onClick={this.randomNumberGen}>Generate quote</button>
-
-
+        
             </div>
             </body>
         );
